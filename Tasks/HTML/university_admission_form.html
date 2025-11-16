@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Online Admission Form</title>
+  <meta name="description" content="Online admission form for new university students.">
+  <meta name="keywords" content="admission form, university, online form, student admission">
+  <meta name="author" content="Hasan">
+</head>
+<body>
+
+  <h1>American International University,Bangladesh</h1>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+
+    
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first_name" required >
+      <br><br>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last_name" required >
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <p>Gender:</p>
+      <label><input type="radio" name="gender" value="male" required> Male</label>
+      <label><input type="radio" name="gender" value="female"required> Female</label>
+      <label><input type="radio" name="gender" value="other"required> Other</label>
+
+      <p>Interests :</p>
+      <label><input type="checkbox" name="interest" value="sports"> Sports</label>
+      <label><input type="checkbox" name="interest" value="music"> Music</label>
+      <label><input type="checkbox" name="interest" value="tech"> Technology</label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>Academic Information</legend>
+
+      <label for="ssc-year">SSC Passing Year:</label>
+      <input type="date" id="ssc-year" name="ssc_year" required>
+       <br><br>
+
+      <label for="ssc-gpa">SSC GPA:</label>
+      <input type="text" id="ssc-gpa" name="ssc_gpa" required >
+       <br><br>
+
+      <label for="hsc-year">HSC Passing Year:</label>
+      <input type="date" id="hsc-year" name="hsc_year" required>
+       <br><br>
+
+      <label for="hsc-gpa">HSC GPA:</label>
+      <input type="text" id="hsc-gpa" name="hsc_gpa" required >
+       <br><br>
+
+      <label for="department">Preferred Department:</label>
+      <select id="department" name="department" required>
+        <option value="">-- Select Department --</option>
+        <option value="cse">Computer Science & Engineering</option>
+        <option value="eee">Electrical & Electronic Engineering</option>
+        <option value="bba">Business Administration</option>
+        <option value="eng">English</option>
+      </select>
+    </fieldset>
+     <br>
+
+    
+    <fieldset>
+      <legend>Required Documents</legend>
+
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" name="photo" required>
+       <br><br>
+
+      <label for="transcript">Upload Transcript:</label>
+      <input type="file" id="transcript" name="transcript" required>
+
+    </fieldset>
+     <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
